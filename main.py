@@ -10,7 +10,7 @@ import urllib.request
 import numpy as np
  
 app = Flask(__name__)
- 
+os.makedir('static/files/')
 UPLOAD_FOLDER = 'static/files/'
  
 app.secret_key = "TheDecoder" #Don't Show
